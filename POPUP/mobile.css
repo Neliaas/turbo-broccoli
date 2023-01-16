@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  .cookie{
+	width: 280px;
+    height: 120px;
+    background-color: rgb(212, 244, 255);
+    position:sticky;
+    bottom: 88px;
+    border-radius: 0px;
+	left: 5%;
+	padding: 40px 20px;
+}
+
+.cookie .txt{
+	position: absolute;
+    top: 17px;
+    width: 80%;
+}
+.txt p{
+	color:#1D2D35;
+    font-size: 10px;
+}
+
+.cookie .accept {
+    background-color: #B4DDFA;
+    color: #fff !important;
+    padding: 3px 23px;
+    align-self: center;
+    font-size: 10px;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-family: "Montserrat";
+    position: relative;
+    left: 70px;
+    top: 28px;
+    }
+.cookie .accept:hover {
+	background-color: #9fd7ff;
+}
